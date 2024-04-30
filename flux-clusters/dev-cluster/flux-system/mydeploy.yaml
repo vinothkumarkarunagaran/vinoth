@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: vinoth
-  name: nginx-deployment
+  name: mydeploy
   labels:
     app: nginx
 spec:
